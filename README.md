@@ -13,7 +13,7 @@ Training involved adding Gaussian noise to the satellite images and teaching the
 ## Image Generation
 Post-training, I generated synthetic images by inputting random noise into the model, which refined it through the learned diffusion process. The generated images were visually inspected and compared against the original dataset to ensure quality and diversity.
 
-P## ost-processing and Evaluation
+## Post-processing and Evaluation
 Post-processing included denoising and fine-tuning the images to remove artifacts. Quantitative evaluation using metrics like the Frechet Inception Distance (FID) validated the model’s performance by comparing synthetic images to real ones.
 
 This structured approach enabled me to leverage Stable Diffusion effectively, producing high-quality, diverse synthetic satellite images that faithfully represented the characteristics of the original dataset.
