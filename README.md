@@ -1,5 +1,5 @@
 # SatelliteSynth
-To implement Stable Diffusion for generating synthetic satellite images using the Netherlands Space Office dataset, I followed a structured approach.
+Implementation of Stable Diffusion for generating synthetic satellite images using the Netherlands Space Office dataset.
 
 ## Data Preparation
 I started by collecting a diverse dataset of satellite images, capturing various weather conditions, seasons, and geographical features. Preprocessing involved resizing all images to 256x256 pixels and normalizing pixel values to the range [0, 1], which enhances model performance by ensuring numerical stability.
